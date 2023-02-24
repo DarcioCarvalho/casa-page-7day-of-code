@@ -56,7 +56,7 @@ Essa página de e-commerce de uma Loja de Jardinagem foi proposto como Desafio *
 
 <br>
 
-[ACESSE A APLICAÇÃO AQUI !!!](https://darciocarvalho.vecell.app)
+[ACESSE A APLICAÇÃO AQUI !!!](https://casa-page-7day-of-code.vercel.app/)
 
 <br>
 
