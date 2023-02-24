@@ -25,7 +25,7 @@ dist-ssr
 
 # Arquivos com Tailwind
 index-tailwind.html
-tailwind.config.cjs
+# tailwind.config.cjs
 src/components/tailwind/*
 src/AppTailwind.tsx
 src/main-tailwind.tsx
