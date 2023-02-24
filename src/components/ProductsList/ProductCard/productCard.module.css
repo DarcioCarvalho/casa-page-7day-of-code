@@ -1,0 +1,68 @@
+.productCard {
+  width: 23.75rem;
+  height: 12.5rem;
+  background-color: white;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  display: flex;
+  overflow: hidden;
+}
+
+.productCard img {
+  height: 16rem;
+  position: relative;
+  left: -1.125rem;
+  top: -1.125rem;
+}
+
+.productCard .info {
+  position: relative;
+  left: -15.25rem;
+  margin-top: 1.6875rem;
+  padding-left: 0.75rem;
+  color: #202020;
+}
+
+.productCard.name {
+  font-family: 'Elsie Swash Caps', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.productCard .price {
+  margin-top: 0.5rem;
+  opacity: 0.5;
+}
+
+.productCard .info button {
+  width: 6.9375rem;
+  height: 1.25rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  color: #ffcb47;
+  background-color: transparent;
+}
+
+.productCard .info button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .productCard {
+    width: 19rem; /* 23.75rem; */
+    height: 10rem; /* 12.5rem; */
+  }
+
+  .productCard img {
+    height: 13rem;
+    position: relative;
+    left: -1.125rem;
+    top: -1.125rem;
+  }
+ 
+  .productCard .info {
+    left: -12.25rem;
+  }
+}

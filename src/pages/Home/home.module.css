@@ -1,0 +1,42 @@
+.image {
+/*   position: absolute;   */
+  /* left: 28.125rem;  */
+  margin-top: -40rem;
+  margin-left: 32%;
+  width: 47.3125rem; /* 56%; */
+  z-index: -1;
+}
+
+main {
+  margin-bottom: 9.5625rem;
+}
+
+/* @media (max-width: 1024px) {
+  .image {
+    width: 53%;
+  }
+  
+} */
+
+@media (max-width: 768px) {
+  .image {
+    margin-top: -34rem;
+    margin-left: 29%;
+    width: 34rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .image {
+    margin-top: -1rem;
+    margin-left: 9rem;
+    width: 17rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .image {
+    margin-left: 7.5rem;
+    width: 15rem;
+  }
+}

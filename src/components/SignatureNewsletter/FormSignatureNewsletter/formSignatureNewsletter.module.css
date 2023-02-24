@@ -1,0 +1,87 @@
+.formSignatureNewsletter {
+  display: flex;
+  justify-content: space-between;
+  width: 36.5625rem;
+  height: 4.6875rem;
+  margin-top: 2.3125rem;
+  background-color: white;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
+}
+
+.fieldGroup {
+  display: flex;
+  padding: 1.089375rem 1.6875rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.fieldGroup input {
+  width: 19.93rem;
+  line-height: 1.25rem;
+  border: none;
+}
+
+.fieldGroup input::placeholder {
+  opacity: 0.3;
+}
+
+.fieldGroup input:focus {
+  outline: none;
+}
+
+.formSignatureNewsletter button {
+  width: 12.125rem;
+  background-color: #FFCB47;
+  box-shadow: 10px 10px 30px rgba(255,203,72,0.3);
+  color: white;
+  border: none;
+}
+
+.formSignatureNewsletter button:disabled:hover {
+  background-color: #FFCB47;
+}
+
+.formSignatureNewsletter button:hover {
+  background-color: #f59e0b;
+}
+
+.error {
+  width: fit-content;
+  padding: 0.25rem 0.5rem;
+  margin-top: 4px;
+  margin-left: 1.6875rem;
+  border-radius: 0 0 4px 4px;
+  background-color: #f87171;
+  opacity: 0.8;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .formSignatureNewsletter {
+    width: 31.25rem;
+    height: 4rem;
+  }
+
+  .fieldGroup {
+    padding: 0.9375rem 1.5rem;
+  }
+ 
+  .fieldGroup input {
+    width: 17rem;
+  }  
+  
+}
+
+@media (max-width: 425px) {
+  .formSignatureNewsletter {
+    width: 23rem;
+    height: 3rem;
+  }
+
+  .fieldGroup input {
+    width: 12rem;
+  }  
+
+}

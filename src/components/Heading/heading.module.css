@@ -1,0 +1,21 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  width: auto;                                                                                                                                                                                                    
+  height: 3.0525rem;
+  margin-top: 0.635rem;
+}
+
+@media (max-width: 1024px) {
+  .heading {
+    margin-inline: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .heading {
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+

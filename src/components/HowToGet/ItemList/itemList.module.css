@@ -1,0 +1,45 @@
+.itemList {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  
+}
+
+.itemList span {
+  font-size: 22px;
+  opacity: 0.5;
+}
+
+.ellipse {
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 100%;
+  background-color: #FFCB47;
+}
+
+@media (max-width: 768px) {
+  .itemList span {
+    font-size: 18px;
+  }
+  
+  .ellipse {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .itemList {
+    gap: 0.5rem;
+  }
+
+  .itemList span {
+    font-size: 14px;
+  }
+  
+  .ellipse {
+    width: 0.60rem;
+    height: 0.60rem;
+  }
+    
+}

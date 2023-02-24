@@ -1,0 +1,16 @@
+.menuSeparator {
+  margin-inline: 0.75rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: #202020;
+}
+
+.menuSeparator:hover {
+  cursor: default;
+}
+
+@media (max-width: 768px) {
+  .menuSeparator {
+    font-size: 14px;
+  } 
+}
